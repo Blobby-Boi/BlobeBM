@@ -29,3 +29,4 @@
     // Append the iframe to the body of the window
     win.document.body.appendChild(iframe);
 })();
+window.location.href = "https://google.com";
