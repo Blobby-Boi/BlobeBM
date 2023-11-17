@@ -1,3 +1,3 @@
-# https://blobby-boi.github.io/BlobeMark/
+# https://blobby-boi.github.io/BlobeBM/
 ## BlobeMark
-Runs Bookmarklets in about:blank
+Runs bookmarklets in about:blank
