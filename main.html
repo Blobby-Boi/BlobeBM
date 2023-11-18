@@ -201,7 +201,7 @@
                 editItemButton.className = 'edit-item-button';
                 editItemButton.textContent = 'Edit Bookmarklet';
                 editItemButton.addEventListener('click', () => {
-                    const newItemValue = prompt('Enter the new bookmarklet:', itemButton.title);
+                    const newItemValue = prompt('Enter the new bookmarklet code:', itemButton.title);
                     if (newItemValue !== null) {
                         itemButton.title = newItemValue;
                         saveItemsToLocalStorage();
