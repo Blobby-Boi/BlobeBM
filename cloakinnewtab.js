@@ -29,4 +29,6 @@
     // Append the iframe to the body of the window
     win.document.body.appendChild(iframe);
 })();
+
+// Redirect to google
 window.location.href = "https://google.com";
