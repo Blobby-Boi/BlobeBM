@@ -1,5 +1,5 @@
 (function () {
-    var url = "https://8752ee92-3fcc-4eda-b1a2-7728cde6218b.id.firewalledreplit.co/";
+    var url = "main.html";
 
     // Open a new window without specifying the name initially
     var win = window.open();
