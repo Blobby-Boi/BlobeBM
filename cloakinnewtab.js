@@ -1,5 +1,5 @@
 (function () {
-    var url = "main.html";
+    var url = 'main.html';
 
     // Open a new window without specifying the name initially
     var win = window.open();
