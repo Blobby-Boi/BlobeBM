@@ -1,11 +1,8 @@
 (function () {
     var url = "https://blobby-boi.github.io/BlobeBM/main.html";
 
-    // Open a new window without specifying the name initially
+    // Open a new about:blank window
     var win = window.open();
-
-    // Set the name of the window to "test"
-    win.name = "test";
 
     // Set the icon for the window
     win.document.head.innerHTML += '<link rel="icon" href="lexialogo.png" type="image/png">';
