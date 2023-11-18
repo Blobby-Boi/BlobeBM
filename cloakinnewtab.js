@@ -11,7 +11,7 @@
     win.document.head.innerHTML += '<link rel="icon" href="lexialogo.png" type="image/png">';
 
     // Set the title of the window
-    win.document.head.innerHTML += '<title>Lexia Powerup!</title>';
+    win.document.head.innerHTML += '<title>Home - PowerUp</title>';
 
     // Create an iframe
     var iframe = win.document.createElement('iframe');
