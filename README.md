@@ -12,4 +12,4 @@ Once you enter the name, you should see the bookmarklet show up. It consists of 
 
 You can add as many bookmarklets as you need on to BlobeBM. The bookmarklets will save even if you close the window or shut down your computer.
 
-### Enjoy!
+#### Enjoy!
