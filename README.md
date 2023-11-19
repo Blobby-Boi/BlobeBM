@@ -11,7 +11,7 @@ It will prompt you for how you want it to be called. Name it something that make
 
 Once you enter the name, you should see the bookmarklet show up. It consists of 4 buttons: The blue button is to run the bookmarklet, the remove button is to delete the bookmarklet, and the other 2 buttons are to rename the bookmarklet and edit the bookmarklet. Hovering over the blue button for a few seconds reveals the bookmarklet code.
 
-You can add as many bookmarklets as you need onto BlobeBM. The bookmarklets will save even if you close the window or shut down your computer.
+You can add as many bookmarklets as you need onto BlobeBM. The bookmarklets will save even if you close the window or shut down your device.
 
 #### As a bonus for reading this, here's a really fun Breakout bookmarklet that works great in BlobeBM:
 ###### javascript:(function(){document.body.appendChild(document.createElement('script')).src='https://cdn.jsdelivr.net/gh/Blobby-Boi/BOOKMARKLET-GAMES@main/V5.0%20Breakout%20Bookmarklet.js';})();
