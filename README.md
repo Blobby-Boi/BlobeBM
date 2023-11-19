@@ -2,7 +2,7 @@
 ## Welcome to BlobeBM!
 BlobeBM is an HTML program that runs bookmarklets in about:blank. It's very useful if bookmarklets don't work on your device or if they are blocked by your administrator.
 #### How to use BlobeBM
-First, make sure that you enable popups on the page. This is because BlobeBM opens itself in about:blank. If the about:blank window opens, then it means you have enabled popups.
+First, make sure that you enable popups on the page. This is because BlobeBM opens itself in about:blank. If the about:blank window opens, then it means that you have enabled popups, and can move on to the next step.
 
 Where it says "Enter bookmarklet here", enter the bookmarklet code. Then click on "Add Bookmarklet".
 
