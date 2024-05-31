@@ -181,7 +181,7 @@
                 itemButton.title = itemValue;
                 itemButton.addEventListener('click', () => {
                     const selectedItemValue = itemButton.title;
-                    eval(selectedItemValue);
+                    runScript(selectedItemValue);
                 });
 
                 const removeButton = document.createElement('button');
