@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BlobeBM</title>
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <style>
         /* Import the Varela Round font */
         @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
@@ -47,14 +46,14 @@
             align-items: center;
         }
 
-        newItemInput {
-   	        width: calc(100% + 590px); /* Adjust the width here */
-  	        padding: 5px; /* Add some padding for better appearance */
-	        border-radius: 5px; /* Rounded edges with a radius of 5px */
-	        margin-left: -600px; /* Move 300px to the left */
-	    }
+	#newItemInput {
+   	    width: calc(100% + 590px); /* Adjust the width here */
+  	    padding: 5px; /* Add some padding for better appearance */
+	    border-radius: 5px; /* Rounded edges with a radius of 5px */
+	    margin-left: -600px; /* Move 300px to the left */
+	}
 
-	    @media (max-width: 769px) {
+	@media (max-width: 769px) {
     		#newItemInput {
         		width: auto; /* Reset width for larger screen sizes */
         		margin-left: 0; /* Reset margin for larger screen sizes */
@@ -182,7 +181,7 @@
                 itemButton.title = itemValue;
                 itemButton.addEventListener('click', () => {
                     const selectedItemValue = itemButton.title;
-                    runScript(decodeURIComponent(selectedItemValue));
+                    eval(selectedItemValue);
                 });
 
                 const removeButton = document.createElement('button');
